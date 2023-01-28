@@ -200,3 +200,13 @@ variable "app_roles" {
 
   EOT
 }
+
+variable "tags" {
+  type        = map(string)
+  description = "Defines the default tags.  Some tags like owner are enforced by Azure policies. "
+  default = {
+    TF-Managed  = "true"
+    TF-Worfklow = ""
+    Maintainer  = ""
+  }
+}
