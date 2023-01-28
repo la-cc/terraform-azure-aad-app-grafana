@@ -1,6 +1,6 @@
 # Introduction:
 
-The module is used to deploy azure over terraform with a default setup (Infrastructure as Code).
+The module is used to deploy azure app-registration for grafana sso over terraform with a default setup (Infrastructure as Code).
 
 # Exmaple Use of Modul:
 
