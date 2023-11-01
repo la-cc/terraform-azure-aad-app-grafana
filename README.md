@@ -7,7 +7,7 @@ The module is used to deploy azure app-registration for grafana sso over terrafo
 # Example Use of Module:
 
     module "aad_app" {
-    source = "github.com/la-cc/terraform-azure-aad-app-grafana?ref=1.0.0"
+    source = "github.com/la-cc/terraform-azure-aad-app-grafana?ref=1.0.1"
 
     display_name            = var.display_name
     redirect_uris           = var.redirect_uris
